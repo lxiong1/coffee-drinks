@@ -1,0 +1,6 @@
+**/*pycache*
+.vscode/
+
+# pytest-cov
+htmlcov/
+.coverage

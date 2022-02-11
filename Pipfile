@@ -1,0 +1,29 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+flask = "*"
+pymongo = "*"
+werkzeug = "*"
+python-dotenv = "*"
+
+[dev-packages]
+pytest = "*"
+pylint = "*"
+bandit = "*"
+invoke = "*"
+pytest-describe = "*"
+pytest-cov = "*"
+pytest-mock = "*"
+expects = "*"
+radon = "*"
+hadolintw = "*"
+black = "==21.12b0"
+pre-commit = "*"
+testcontainers = {extras = ["mongodb"], version = "*"}
+locust = "*"
+
+[requires]
+python_version = "3.10"
